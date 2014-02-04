@@ -10,6 +10,7 @@
 <span class="switchradio"></span>
 ```
 Используйте конструкцию как на примере ниже:
+```html
 <span class="switchradio">
   <label>
     <input type="radio" name="test1" value="1"  checked="checked" />
@@ -20,9 +21,9 @@
     <span><label>Нет</label></span>
   </label>
 </span>
-
+```
 По умолчанию переключатель имеет скругленные углы. Если вы хотите придать более квадратный вид, то добаьте класс swbox к вашему span.
-
+```html
 <span class="switchradio swbox">
   <label>
     <input type="radio" name="test1" value="1"  checked="checked" />
@@ -33,3 +34,4 @@
     <span><label>Нет</label></span>
   </label>
 </span>
+```
