@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Замена радиокнопок на переключатель</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="SwitchRadio.css" type="text/css" rel="stylesheet">
+    </head>
+    <body style="width:900px; margin:auto;">
+        <p><h1>Демонстрация Switch Radio в стиле iOS</h1></p>
+        <p>
+        <h3>Изначально мы имеем такие радиокнопки </h3>
+            <label><input type="radio" name="test" value="1"  checked="checked" />Да</label>
+            <label><input type="radio" name="test" value="0" />Нет</label>
+        </p>
+        <p>
+        <h3>А вот и переключатель радио.</h3> 
+            <span class="switchradio">
+            <label><input type="radio" name="test1" value="1"  checked="checked" /><span><label>Да</label></span></label>
+            <label><input type="radio" name="test1" value="0" /><span><label>Нет</label></span></label>
+            </span>
+        
+<pre>      
+&lt;span class=&quot;switchradio&quot;&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;examplename&quot; value=&quot;1&quot; checked=&quot;checked&quot;&gt;&lt;span&gt;&lt;label&gt;Да&lt;/label&gt;&lt;/span&gt;&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;examplename&quot; value=&quot;0&quot;&gt;&lt;span&gt;&lt;label&gt;Нет&lt;/label&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;/span&gt;
+</pre>
+        </p>
+        <p>
+        <h3>Можно и в стиле box</h3> 
+            <span class="switchradio swbox">
+            <label><input type="radio" name="test2" value="1" /><span><label>Да</label></span></label>
+            <label><input type="radio" name="test2" value="0"  checked="checked" /><span><label>Нет</label></span></label>
+            </span>
+        
+<pre>      
+&lt;span class=&quot;switchradio swbox&quot;&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;examplename&quot; value=&quot;1&quot; checked=&quot;checked&quot;&gt;&lt;span&gt;&lt;label&gt;Да&lt;/label&gt;&lt;/span&gt;&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;examplename&quot; value=&quot;0&quot;&gt;&lt;span&gt;&lt;label&gt;Нет&lt;/label&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;/span&gt;
+</pre>
+        </p>
+        <p>Данный вариант работает только для радиокнопок со значением в value равной 1 или 0</p>
+        <p style='text-align: right;'>Автор: Коневец Алексей [Dr2005alex@mail.ru]</p>
+    </body>
+</html>
